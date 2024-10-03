@@ -245,13 +245,13 @@ plt.show()
 i) Using Averaging Filter
 
 
-![image](https://github.com/user-attachments/assets/264b5f5a-eb94-4cf8-938b-e472b26d32cd)
+![image](https://github.com/user-attachments/assets/8e0f754e-2dee-497a-aab9-16e6ce89ecbb)
 
 
 ii)Using Weighted Averaging Filter
 
 
-![image](https://github.com/user-attachments/assets/8e0f754e-2dee-497a-aab9-16e6ce89ecbb)
+![image](https://github.com/user-attachments/assets/264b5f5a-eb94-4cf8-938b-e472b26d32cd)
 
 
 iii)Using Gaussian Filter
