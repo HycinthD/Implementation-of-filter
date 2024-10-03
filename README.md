@@ -52,7 +52,15 @@ cv2.imshow("Averaging Smoothed", averaging_smoothed)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-ii) Using Weighted Averaging Filter
+### 1. Smoothing Filters
+
+i) Using Averaging Filter
+
+
+![image](https://github.com/user-attachments/assets/8e0f754e-2dee-497a-aab9-16e6ce89ecbb)
+
+
+## ii) Using Weighted Averaging Filter
 ```Python
 
 import cv2
@@ -92,7 +100,13 @@ plt.axis("off")
 plt.show()
 
 ```
-iii) Using Gaussian Filter
+ii)Using Weighted Averaging Filter
+
+
+![image](https://github.com/user-attachments/assets/264b5f5a-eb94-4cf8-938b-e472b26d32cd)
+
+
+## iii) Using Gaussian Filter
 ```Python
 
 import cv2
@@ -126,7 +140,13 @@ plt.axis("off")
 # Show the plot
 plt.show()
 ```
-iv)Using Median Filter
+iii)Using Gaussian Filter
+
+
+![image](https://github.com/user-attachments/assets/7a213040-c372-4642-bd46-f64903f86006)
+
+
+## iv)Using Median Filter
 ```Python
 import cv2
 import matplotlib.pyplot as plt
@@ -160,6 +180,11 @@ plt.axis("off")
 plt.show()
 
 ```
+iv) Using Median Filter
+
+
+![image](https://github.com/user-attachments/assets/d59470bb-6e14-4563-8382-4d46c8a9becd)
+
 
 ### 2. Sharpening Filters
 i) Using Laplacian Linear Kernal
@@ -200,9 +225,14 @@ plt.axis("off")
 
 plt.show()
 
-
 ```
-ii) Using Laplacian Operator
+i) Using Laplacian Kernal
+
+
+![image](https://github.com/user-attachments/assets/c3e62113-e03a-4847-a922-4e9b7dcb777f)
+
+
+## ii) Using Laplacian Operator
 ```Python
 import cv2
 import matplotlib.pyplot as plt
@@ -238,6 +268,10 @@ plt.axis("off")
 plt.show()
 
 ```
+ii) Using Laplacian Operator
+
+
+![image](https://github.com/user-attachments/assets/d290590e-77cb-407c-b769-f509f8291413)
 
 ## OUTPUT:
 ### 1. Smoothing Filters
