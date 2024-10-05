@@ -57,7 +57,7 @@ cv2.destroyAllWindows()
 i) Using Averaging Filter
 
 
-![image](https://github.com/user-attachments/assets/8e0f754e-2dee-497a-aab9-16e6ce89ecbb)
+![Screenshot 2024-10-05 081716](https://github.com/user-attachments/assets/70ffa865-ebc1-4849-96cf-5bedf9c8ad1d)
 
 
 ## ii) Using Weighted Averaging Filter
@@ -102,8 +102,8 @@ plt.show()
 ```
 ii)Using Weighted Averaging Filter
 
+![Screenshot 2024-10-05 081716](https://github.com/user-attachments/assets/31d7cc60-889d-4a36-8bd6-eba1a0feaa2e)
 
-![image](https://github.com/user-attachments/assets/264b5f5a-eb94-4cf8-938b-e472b26d32cd)
 
 
 ## iii) Using Gaussian Filter
@@ -142,8 +142,8 @@ plt.show()
 ```
 iii)Using Gaussian Filter
 
+![Screenshot 2024-10-05 081728](https://github.com/user-attachments/assets/29334344-75cc-4568-8a11-f81bf1ec5f67)
 
-![image](https://github.com/user-attachments/assets/7a213040-c372-4642-bd46-f64903f86006)
 
 
 ## iv)Using Median Filter
@@ -182,8 +182,8 @@ plt.show()
 ```
 iv) Using Median Filter
 
+![Screenshot 2024-10-05 081742](https://github.com/user-attachments/assets/4aa93b02-27ca-42c3-85c3-e079411aeb00)
 
-![image](https://github.com/user-attachments/assets/d59470bb-6e14-4563-8382-4d46c8a9becd)
 
 
 ### 2. Sharpening Filters
@@ -228,50 +228,7 @@ plt.show()
 ```
 i) Using Laplacian Kernal
 
-
-![image](https://github.com/user-attachments/assets/c3e62113-e03a-4847-a922-4e9b7dcb777f)
-
-
-## ii) Using Laplacian Operator
-```Python
-import cv2
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Load the image
-image1 = cv2.imread("V.jpg")
-
-# Convert the image to RGB color space
-image2 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
-
-# Apply the Laplacian operator
-laplacian = cv2.Laplacian(image2, cv2.CV_64F)  # Use CV_64F for better precision
-
-# Convert the Laplacian image back to uint8 for display
-laplacian = cv2.convertScaleAbs(laplacian)
-
-# Create the figure and subplots
-plt.figure(figsize=(8, 8))
-
-# Display the original image
-plt.subplot(1, 2, 1)
-plt.imshow(image2)
-plt.title("Original Image")
-plt.axis("off")
-
-# Display the Laplacian filtered image
-plt.subplot(1, 2, 2)
-plt.imshow(laplacian)
-plt.title("Laplacian Operator")
-plt.axis("off")
-
-plt.show()
-
-```
-ii) Using Laplacian Operator
-
-
-![image](https://github.com/user-attachments/assets/d290590e-77cb-407c-b769-f509f8291413)
+![Screenshot 2024-10-05 081755](https://github.com/user-attachments/assets/ad4f3ca4-dbd8-4064-a93a-38204117cf57)
 
 
 ## Result:
