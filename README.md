@@ -102,7 +102,7 @@ plt.show()
 ```
 ii)Using Weighted Averaging Filter
 
-![Screenshot 2024-10-05 081716](https://github.com/user-attachments/assets/31d7cc60-889d-4a36-8bd6-eba1a0feaa2e)
+![Screenshot 2024-10-05 081703](https://github.com/user-attachments/assets/88579e8e-679c-4351-8cff-f7cb531de991)
 
 
 
